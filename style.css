@@ -1,0 +1,105 @@
+     header{
+            background-color: #FFD900;
+            height: 80px;
+        }
+        #sec{
+            margin-left: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:#F3C61F;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        #logo{
+            margin-left: 20px;
+            padding: 15px;
+        }
+        #main{
+            display: flex;
+        }
+        #texto{
+            width: 40%;
+            height: 480px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            background-color: #514988;
+            color: white;
+            padding-top: 25px;
+        }
+        #video{
+            width: 100%;
+        }
+        #titulo-txt{
+            color: #FFD900;
+            font-weight: 700;
+            font-size: 50px;
+        }
+        #texto-paragrafo{
+            font-weight: 100;
+        }
+        .timer{
+            display: grid;
+            grid-auto-flow: column;
+            margin-left: 50px; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #514988;
+        }
+        #video-ccpxyt{
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+        #txt-abaixocronometro{
+            margin-left: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #E33881;
+            font-size: 25px;
+            font-weight: 700;
+        }
+        nav{
+            margin-top: 20px;
+            display: flex;
+        }
+       button{
+        background: #514988;
+        border-radius: 20px;
+        width: 400px;
+        height: 120px;
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        transition: 0.3s;
+       }
+       button:hover{
+        background-color: #FFD900;
+        border: none;
+       }
+
+       .ingressos{
+        display: flex;
+        align-items: center;
+       }
+
+       .container-button{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+       }
+
+       .timer div{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        font-size: 30px;
+        font-weight: 700;
+       }
+       .timer div h1{
+        margin-block-start: 0 !important;
+        margin-block-end: 0 !important;
+       }
+
+       #sec div h3{
+        margin-left: 60px;
+        font-size: 20px;
+       }
